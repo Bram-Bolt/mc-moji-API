@@ -1,0 +1,3 @@
+[submodule "mc-moji"]
+	path = mc-moji
+	url = git@github.com:Bram-Bolt/mc-moji.git
