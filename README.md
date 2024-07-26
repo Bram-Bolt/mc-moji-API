@@ -2,6 +2,6 @@
 rest API for mc-moji
 
 ```vbnet
-api.brambolt.me/mc-moji/?playername=[your playername]&overlay=true&shadows=true&size=30
+api.brambolt.me/mc-moji/[your playername]?size=30&overlay=true&shadows=true
 ```
 
