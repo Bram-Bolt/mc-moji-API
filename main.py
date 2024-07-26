@@ -10,6 +10,7 @@ app = FastAPI()
 async def get_image(playername):
     save_avatar(playername)
     image_path = Path("images", f"{playername}.png")
+    print(image_path)
     if not image_path.is_file():
         return {"error": "Image not found on the server"}
     return FileResponse(image_path)
