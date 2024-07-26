@@ -16,10 +16,10 @@ mc_moji = importlib.import_module("mc-moji.app")
 def name_file(playername: str, shadows: bool, overlay: bool, size: int) -> str:
     name = playername
     if shadows:
-        name += "_s"
+        name += "_s"  # shadow tag
     if overlay:
-        name += "_o"
-    name += f"_z{size}"
+        name += "_o"  # overlay tag
+    name += f"_z{size}"  # size tag
     return name
 
 
