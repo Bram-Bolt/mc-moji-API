@@ -12,7 +12,20 @@ sys.path.insert(0, mc_moji_path)
 mc_moji = importlib.import_module("mc-moji.app")
 
 
+# name image
+def name_file(playername: str, shadows: bool, overlay: bool, size: int) -> str:
+    name = playername
+    if shadows:
+        name += "_s"
+    if overlay:
+        name += "_o"
+    name += f"_z{size}"
+    return name
+
+
 # save image
-def save_avatar(playername: str):
-    img = mc_moji.avatar_generator.generate_avatar(playername, True, True, 30)
-    mc_moji.image_utils.save_image(img, playername, "images")
+def save_avatar(
+    playername: str, shadows: bool, overlay: bool, size: int, filename: str
+) -> None:
+    img = mc_moji.avatar_generator.generate_avatar(playername, shadows, overlay, size)
+    mc_moji.image_utils.save_image(img, filename, "images")
