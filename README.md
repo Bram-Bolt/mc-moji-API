@@ -24,8 +24,9 @@ A more complex usage can be found below.
 		 ```vbnet
 		https://api.brambolt.me/mc-moji/Steve?shadows=true&overlay=true&size=30
 		```
-
-	 - **Example Response**: 
+	
+	 - **Example Response**:
+ 	<br> 
 	![example](https://i.imgur.com/YIR6egw.png)
 ## Self-Hosting
 Please feel free to host this API yourself. However, for large scale personal use I recommend using the mc-moji package.
