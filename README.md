@@ -1,4 +1,4 @@
-![](https://i.imgur.com/rnSBPGL.png)
+
 # mc-moji-API
 
 This project is a FastAPI-based web service for generating and serving Minecraft avatar images using [mc-moji.](https://github.com/Bram-Bolt/mc-moji)
