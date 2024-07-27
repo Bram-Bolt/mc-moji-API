@@ -1,3 +1,4 @@
+> **DISCLAIMER**: API is currently deployed at the free plan of render.com, therefore will take a couple seconds at first boot.
 
 # mc-moji-API
 
