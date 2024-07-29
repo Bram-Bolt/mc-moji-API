@@ -19,12 +19,13 @@ async def get_image(
     filename = name_file(playername, shadows, overlay, size)
 
     # save and load avatar file
-    try:
-        save_avatar(playername, shadows, overlay, size, filename)
-    except:
-        return {
-            "error": "error in generating image, please ensure you put in a valid username.",
-        }
+    save_avatar(playername, shadows, overlay, size, filename)
+    # try:
+    #     save_avatar(playername, shadows, overlay, size, filename)
+    # except:
+    #     return {
+    #         "error": "error in generating image, please ensure you put in a valid username.",
+    #     }
 
     image_path = Path("images", f"{filename}.png")
     # check if image is available
