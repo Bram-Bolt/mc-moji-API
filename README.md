@@ -31,7 +31,9 @@ A more complex usage can be found below.
 ## Self-Hosting
 Please feel free to host this API yourself. However, for large scale personal use I recommend using the mc-moji package.
 
-  
+## Contact & Contributing
+All types of contributions are encouraged and valued. From adding extra mappings to code refactors. Just open a pull request or issue and I will take a look at it.
+For more complex suggestions, or questions, reach out to [contact@brambolt.me](mailto:contact@brambolt.me).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
