@@ -1,5 +1,5 @@
 fastapi==0.111.1
 numpy==2.0.1
-Pillow==10.4.0
+Pillow==12.1.1
 Requests==2.32.4
 setuptools==78.1.1
